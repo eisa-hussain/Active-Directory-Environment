@@ -3,13 +3,13 @@
 
 ## Overview
 
-To simulate a real-world Active Directory environment, I attempted this lab to walk through the essentials of setting up and configuring a Windows-based network. By using Oracle's VirtualBox, I've created a simulated environment comprised of two virtual machines. One machine runs Windows Server 2019, acting as the Domain Controller, and the other machine runs Windows 10 to emulate a client experience.
+To simulate a real-world Active Directory environment, I attempted this project to walk through the essentials of setting up and configuring a Windows-based network. By using Oracle's VirtualBox, I've created a simulated environment comprised of two virtual machines. One machine runs Windows Server 2019, acting as the Domain Controller, and the other machine runs Windows 10 to emulate a client experience.
 
 ## Objectives
 
 ![overviewoflab](https://github.com/eisa-hussain/Active-Directory-Environment/assets/88050325/4ef2670e-9f2f-42ec-81d1-6dd147a0e997)
 
-During this lab, I:
+During this project, I:
 
 - Set up Active Directory Domain Services from scratch.
 - Created a dedicated Domain Admin account, ensuring security and control.
@@ -68,7 +68,7 @@ Doing so has established a secure yet flexible network topology indispensable fo
 
 ## Integrating Active Directory Domain Services
 
-- Upon booting up Windows Server, I ventured into the Server Manager, and from there, I meticulously added the "Active Directory Domain Services" role.
+- Upon booting up Windows Server, I ventured into the Server Manager, and from there, I added the "Active Directory Domain Services" role.
 
 ![ACTIVEDIRECTORY LAB2](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/5877e1da-97c1-4d92-86ce-1c09d133d956)
 
@@ -178,15 +178,15 @@ With our Windows 10 VM ready, I configured it to connect to our server's environ
 
 ### Achieved Objectives
 
-Throughout this lab, we traversed the essentials of setting up and configuring a Windows-based Active Directory environment. The walkthrough guided us through everything from initial setup and domain configurations to intricate networking adjustments and automation. The PowerShell script's employment for bulk user creation stands as a testament to how scalable and automatable an Active Directory environment can be.
+Throughout this project, we traversed the essentials of setting up and configuring a Windows-based Active Directory environment. The PowerShell script's employment for bulk user creation stands as a testament to how scalable and automatable an Active Directory environment can be.
 
 ### Learning Outcomes
 
-The lab offered an invaluable hands-on experience, helping to demystify the often complex domain of Windows networking and Active Directory services. It provided insights into foundational aspects like DHCP setup, user management, Organizational Unit (OU) creation, and networking nuances. Perhaps most notably, it demonstrated how automation could significantly enhance administrative efficiency, a key takeaway for any IT professional.
+The project offered an invaluable hands-on experience, helping to demystify the often complex domain of Windows networking and Active Directory services. It provided insights into foundational aspects like DHCP setup, user management, Organizational Unit (OU) creation, and networking nuances. Perhaps most notably, it demonstrated how automation could significantly enhance administrative efficiency, a key takeaway for any IT professional.
 
 ### Real-World Applicability
 
-The skills and knowledge gained from this lab extend far beyond its experimental confines. These competencies are highly transferable to real-world scenarios, where Active Directory is a cornerstone for organizational IT infrastructures. The automation aspects, particularly, equip you with the capability to manage large-scale environments effectively.
+The skills and knowledge gained from this project extend far beyond its experimental confines. These competencies are highly transferable to real-world scenarios, where Active Directory is a cornerstone for organizational IT infrastructures. The automation aspects, particularly, equip you with the capability to manage large-scale environments effectively.
 
 
 
