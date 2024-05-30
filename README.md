@@ -15,7 +15,7 @@ During this lab, I:
 - Created a dedicated Domain Admin account, ensuring security and control.
 - Deployed a DHCP server to allocate IP addresses dynamically.
 - Showed the creation of an Organizational Unit for better user management.
-- Delveed into the intricacies of Routing and Remote Access to emulate a corporate intranet.
+- Delved into the intricacies of Routing and Remote Access to emulate a corporate intranet.
 - Configured the Network Interface Card (NIC), ensuring local and internet connectivity.
 - Demonstrated mass user management by using PowerShell to batch-add over 1000 users.
 - Interacted with the client machine, simulating a login process using one of our newly added users.
@@ -33,7 +33,7 @@ During this lab, I:
 - Open Oracle VirtualBox and click "New."
 - Name the first machine as "DC" and select Microsoft Windows as the type and Windows (64-bit) as the version.
 - Assign at least 2 GB of RAM and create a new virtual hard disk of at least 50 GB.
-- Repeat the process for our Windows 10 machine and name it "CLIENT."
+- Repeat the process for our Windows 10 machine and name it "CLIENT1"
 
 ### Installing the Operating Systems and Initial Setup
 
@@ -171,7 +171,7 @@ The main goal of this script is to demonstrate automation capabilities in Active
 
 With our Windows 10 VM ready, I configured it to connect to our server's environment. Subsequently, I logged off and back in, simulating the experience of one of our batch-created users.
 
-![ACTIVEDIRECTORY LAB 2](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/a734965e-cfdf-40f3-9c54-a313a185213b)
+
 
 
 ## Final Thoughts and Conclusions
@@ -188,15 +188,6 @@ The lab offered an invaluable hands-on experience, helping to demystify the ofte
 
 The skills and knowledge gained from this lab extend far beyond its experimental confines. These competencies are highly transferable to real-world scenarios, where Active Directory is a cornerstone for organizational IT infrastructures. The automation aspects, particularly, equip you with the capability to manage large-scale environments effectively.
 
-### Future Exploration
-
-Although this lab covers significant ground, it's worth noting that Active Directory and Windows networking encompass much more. Advanced topics like Group Policies, advanced security measures, multi-site configurations, and integration with cloud services are some areas where you can extend your learning journey.
-
-### Closing Remarks
-
-In conclusion, this lab is a stepping stone into Windows-based networking and Active Directory. It equips you with the technical know-how and instills a strategic understanding of these services' roles within larger IT ecosystems.
-
-The complexity and richness of Active Directory can be intimidating, but as this lab has demonstrated, a structured and hands-on approach can go a long way in gaining mastery over it. For those who aim to either enter the IT field or enhance their existing skill set, understanding Active Directory is almost a rite of passage, and this lab seeks to make that transition as seamless as possible.
 
 
 
